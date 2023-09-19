@@ -1,56 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8" />
+
+    <title>El título de mi página</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
+        type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rajdhani:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="estilos.css" />
+
 
 </head>
 
 <body>
+
     <header>
+
         <nav>
-            <ul class="secciones">
-                <li id="titulo">Travel <br><br></li>
-                <li><a href="#">Brasil</a></li>
-                <li><a href="#">Argentina</a></li>
-                <li><a href="#">España</a></li>
-                <li><a href="#">Mexico</a></li>
+            <ul>
+                <li id="titulo">Travel</li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nuestro equipo</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
-       
     </header>
-  
 
+
+    <!-- Aquí está el contenido principal de nuestra página -->
     <main>
-        <section>
-            <img src="/assets/riodejaneiro.webp" width="200px" alt="brasil"  >
-            <h2>Rio de Janeiro</h2>
+        <!-- Contiene un artículo -->
+        <article>
+            <h2>Descrubrí los mejores destinos</h2>
 
-        </section>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+                lectus. Set sit amet ipsum mauris.
+            </p>
 
-        <section>
-            <img src="/assets/madrid.jpg" width="200px" alt="españa"  >
-            <h2>Madrid</h2>
-
-
-        </section>
-        <section>
-            <img src="/assets/cataratas.webp" width="200px" alt="argentina"  >
-            <h2>Cataratas del Iguazú</h2>
+            <ul id="destinos">
+                <li> <a href="http://127.0.0.1:5500/destino1.html"><img src="/assets/riodejaneiro.webp" width="400px"
+                            alt="mexico"></a><br> 🇧🇷Rio de Janeiro<br><strong>🏨Incluido en el paquete<br>🍽️Incluido en el
+                    paquete<br>🚍Incluido en el paquete</strong>
 
 
-        </section>
-        <section> 
-            <img src="/assets/tulum.jpg" width="200px" alt="mexico"  >
-            <h2>Tulúm</h2>
+                </li>
 
-        </section>
+                <li> <a href="http://127.0.0.1:5500/destino1.html"><img src="/assets/tulum.jpg" width="400px"
+                            height="224px" alt="mexico"> </a><br> 🇲🇽Tulum
 
+                </li>
+
+                <li> <a href="http://127.0.0.1:5500/destino1.html"><img src="/assets/cataratas.webp" width="400px"
+                            alt="mexico"> </a><br>
+                    🇦🇷Cataratas del Iguazú
+                </li>
+
+                <li> <a href="http://127.0.0.1:5500/destino1.html"><img src="/assets/madrid.jpg" width="400px"
+                            height="224px" alt="mexico"></a><br>🇪🇸Madrird
+
+                </li>
+
+
+            </ul>
+        </article>
+
+        <!-- el contenido aparte también se puede anidar dentro del contenido principal -->
+        <aside>
+            <h2>Relacionado</h2>
+
+            <ul>
+                <li><a href="#">Brasil, Rio de Janeiro</a></li>
+                <li><a href="#">Mexico, Tulum</a></li>
+                <li><a href="#">Argentina, Cataratas del Iguazú</a></li>
+                <li><a href="#">España, Madrid</a></li>
+            </ul>
+        </aside>
     </main>
+
+    <footer>
+        <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+    </footer>
+</body>
+
+</html>
 
 
 </body>
